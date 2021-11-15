@@ -78,6 +78,7 @@ export const TABLE_DATA = [
     '2017': 71.8,
     '2018': 60.9,
     '2019': 50.3,
+    '2020': 60.3,
     criticalValue: 60,
     preCriticalValue: 50,
     normalValue: 30,
