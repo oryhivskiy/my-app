@@ -30,7 +30,7 @@ export const indicatorsAll = [
       },
       {
         year: '2020',
-        value: 2.8,
+        value: 2.1,
       },
     ],
   },
@@ -63,6 +63,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 50.3,
       },
+      {
+        year: '2020',
+        value: 54.5,
+      },
     ]
   },
   {
@@ -93,6 +97,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 79.2,
+      },
+      {
+        year: '2020',
+        value: 75.3,
       },
     ]
   },
@@ -125,6 +133,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 95,
       },
+      {
+        year: '2020',
+        value: 96.2,
+      },
     ]
   },
   {
@@ -155,6 +167,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 4.9,
+      },
+      {
+        year: '2020',
+        value: 5,
       },
     ]
   },
@@ -187,6 +203,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 20.04,
       },
+      {
+        year: '2020',
+        value: 19,
+      },
     ]
   },
   {
@@ -217,6 +237,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 59.1,
+      },
+      {
+        year: '2020',
+        value: 58.2,
       },
     ]
   },
@@ -249,6 +273,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 51.4,
       },
+      {
+        year: '2020',
+        value: 53.3,
+      },
     ]
   },
   {
@@ -279,6 +307,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 54.1,
+      },
+      {
+        year: '2020',
+        value: 52.7,
       },
     ]
   },
@@ -311,6 +343,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 1.9,
       },
+      {
+        year: '2020',
+        value: 1.85,
+      },
     ]
   },
   {
@@ -341,6 +377,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 0.271,
+      },
+      {
+        year: '2020',
+        value: 0.266,
       },
     ]
   },
@@ -373,6 +413,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 96.2,
       },
+      {
+        year: '2020',
+        value: 96,
+      },
     ]
   },
   {
@@ -403,6 +447,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 3.9,
+      },
+      {
+        year: '2020',
+        value: 4,
       },
     ]
   },
@@ -435,6 +483,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 21.7,
       },
+      {
+        year: '2020',
+        value: 21.9,
+      },
     ]
   },
   {
@@ -465,6 +517,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 106,
+      },
+      {
+        year: '2020',
+        value: 107,
       },
     ]
   },
@@ -497,6 +553,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 64,
       },
+      {
+        year: '2020',
+        value: 62,
+      },
     ]
   },
   {
@@ -527,6 +587,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 7.2,
+      },
+      {
+        year: '2020',
+        value: 7,
       },
     ]
   },
@@ -559,6 +623,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 15.1,
       },
+      {
+        year: '2020',
+        value: 15.4,
+      },
     ]
   },
   {
@@ -589,6 +657,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 19.2,
+      },
+      {
+        year: '2020',
+        value: 18.8,
       },
     ] 
   },
@@ -621,6 +693,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 85.1,
       },
+      {
+        year: '2020',
+        value: 86,
+      },
     ]
   },
   {
@@ -651,6 +727,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 17.3,
+      },
+      {
+        year: '2020',
+        value: 17.9,
       },
     ]
   },
@@ -683,6 +763,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 3.4,
       },
+      {
+        year: '2020',
+        value: 3.3,
+      },
     ]
   },
   {
@@ -713,6 +797,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 18,
+      },
+      {
+        year: '2020',
+        value: 18.5,
       },
     ]
   },
@@ -745,6 +833,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 13.8,
       },
+      {
+        year: '2020',
+        value: 14.2,
+      },
     ]
   },
   {
@@ -775,6 +867,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 1.3,
+      },
+      {
+        year: '2020',
+        value: 1.4,
       },
     ]
   }, 
@@ -807,6 +903,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 0.176,
       },
+      {
+        year: '2020',
+        value: 0.18,
+      },
     ]
   },
   {
@@ -837,6 +937,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 47,
+      },
+      {
+        year: '2020',
+        value: 46,
       },
     ]
   },
@@ -869,6 +973,10 @@ export const indicatorsAll = [
         year: '2019',
         value: -7.9,
       },
+      {
+        year: '2020',
+        value: -7.5,
+      },
     ]
   },
   {
@@ -899,6 +1007,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 103.2,
+      },
+      {
+        year: '2020',
+        value: 103,
       },
     ]
   },
@@ -931,6 +1043,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 101.9,
       },
+      {
+        year: '2020',
+        value: 102.3,
+      },
     ]
   },
   {
@@ -961,6 +1077,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: 4.15,
+      },
+      {
+        year: '2020',
+        value: 3.5,
       },
     ]
   },
@@ -993,6 +1113,10 @@ export const indicatorsAll = [
         year: '2019',
         value: 8.2,
       },
+      {
+        year: '2020',
+        value: 8.4,
+      },
     ]
   },
   {
@@ -1023,6 +1147,10 @@ export const indicatorsAll = [
       {
         year: '2019',
         value: -4.1,
+      },
+      {
+        year: '2020',
+        value: -5.4,
       },
     ]
   }
