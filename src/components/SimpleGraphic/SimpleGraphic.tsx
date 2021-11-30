@@ -6,11 +6,17 @@ import cx from 'classnames';
 import { allYears, graphic } from './content';
 import s from './SimpleGraphic.module.sass';
 
+import { Modal } from '../Modal';
+
 import { GraphicInterface, SelectType } from '../../types/common';
 import { generateIndicatorsValue } from '../../utils/helprers';
 import { yearsSelect } from '../../content/selects';
 import { indicatorsAll } from '../../content/indicators';
 import { options } from '../../content/graphic';
+
+import Edit from '../../icons/edit.png';
+import Add from '../../icons/plus.png';
+
 
 type SimpleGraphicProps = {
   className?: string
@@ -23,6 +29,9 @@ export const SimpleGraphic: React.FC<SimpleGraphicProps> = ({
   const [indicators, setIndicators] = useState<SelectType>(generateIndicatorsValue()[0]);
   const [currentIndicators, setCurrentIndicators] = useState<string | undefined>('');
   const [grapics, setGraphics] = useState<GraphicInterface>(graphic);
+
+  const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
+  const [modalTheme, setModalTheme] = useState<'add' | 'edit'>('add');
 
   const handleYear = useCallback(
     (e: SelectType) => {
@@ -75,8 +84,32 @@ export const SimpleGraphic: React.FC<SimpleGraphicProps> = ({
     setIndicators(e);
   };
 
+  const handleModal = (theme: 'add' | 'edit') => {
+    setModalIsOpen(!modalIsOpen);
+    setModalTheme(theme);
+  }
+
+  const onRequestClose = () => {
+    setModalIsOpen(!modalIsOpen);
+  }
+
   return (
-    <div className={cx(s.root, className)}>
+    <div className={cx(s.root, { [s.modal]: modalIsOpen }, className)}>
+      <div className={s.actions}>
+        <img 
+          src={Add} 
+          alt="Add"
+          onClick={() => handleModal('add')}
+          className={s.icon} 
+        />
+        <img 
+          src={Edit} 
+          alt="edit" 
+          onClick={() => handleModal('edit')}
+          className={s.icon}
+        />
+      </div>
+
       <div className={s.wrapper}>
         <div className={s.selectWrapper}>
           <span className={s.selectLabel}>Роки</span>
@@ -106,6 +139,13 @@ export const SimpleGraphic: React.FC<SimpleGraphicProps> = ({
           options={options as any} 
         />
       </div>
+      
+      {modalIsOpen && (
+      <Modal 
+        theme={modalTheme}
+        onRequestClose={onRequestClose}
+      />
+      )}
     </div>
   )
 }

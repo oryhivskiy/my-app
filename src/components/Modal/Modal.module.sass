@@ -1,0 +1,88 @@
+.root
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: rgba(#000, .4)
+  z-index: 9
+  overflow: auto
+
+.container
+  position: relative
+  width: 750px
+  padding: 48px
+  background-color: #fff
+  border-radius: 8px
+  text-align: left
+
+.edit
+  top: 100px
+
+.close
+  position: absolute
+  top: 0
+  padding: 8px
+  margin: -8px
+  right: -24px
+  font-size: 20px
+  font-weight: 700
+  color: #fff
+  cursor: pointer
+  transition: color .3s
+  &:hover
+    color: #454545
+
+.title
+  margin-bottom: 24px
+  font-size: 24px
+  font-weight: 700
+
+.form
+  display: flex
+  justify-content: space-between
+
+.col
+  flex: 1
+  &:first-child
+    margin-right: 32px
+
+.wrapper
+  display: flex
+  flex-direction: column
+  &:not(:last-child)
+    margin-bottom: 12px
+
+.label
+  margin-bottom: 8px
+
+.input
+  height: 32px
+  width: 100%
+  padding: 0 8px
+  border-radius: 4px
+  border: 1px solid #ccc
+  cursor: pointer
+
+.button
+  display: block
+  margin: 32px auto 0
+  width: 180px
+  height: 32px
+  border-radius: 4px
+  border: 1px solid transparent
+  background-color: #8bc34a
+  text-transform: uppercase
+  color: #fff
+  font-weight: 700
+  cursor: pointer
+
+.addWrapper
+  display: flex
+  .wrapper
+    flex: 1
+    &:first-child
+      margin-right: 32px
